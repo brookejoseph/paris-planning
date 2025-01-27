@@ -1,3 +1,3 @@
 # Paris Day trip planner 🎀🥐
 
-![Uploading paris.png…]()
+![Description of Image](./paris.png)
