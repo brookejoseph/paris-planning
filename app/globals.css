@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-pink: #ffc0cb;
+  --color-light-pink: #ffe4e1;
+  --color-lavender: #e6e6fa;
+  --color-mint: #98ff98;
+  --color-peach: #ffdab9;
+}
+
+body {
+  background-color: var(--color-light-pink);
+}
+
+.girly-card {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.girly-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.cute-button {
+  background-color: var(--color-pink);
+  color: white;
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.cute-button:hover {
+  background-color: var(--color-peach);
+  transform: scale(1.05);
+}
+
+.leaflet-container {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
